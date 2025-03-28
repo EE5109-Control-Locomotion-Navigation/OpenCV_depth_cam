@@ -1,0 +1,7 @@
+opencv-python
+qrcode
+pillow
+pyzbar
+numpy
+matplotlib
+depthai
