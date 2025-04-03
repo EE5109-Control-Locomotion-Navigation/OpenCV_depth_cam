@@ -39,7 +39,7 @@ Use cam_arm_demo.py as a template for this assignment. This file is a simple scr
    - If no QR code is detected, keep the object in the scanning area for re-evaluation.
 
 4. **Robot Arm Control:**
-   - Utilize the WLKATA API (https://github.com/EE5109-Control-Locomotion-Navigation/mirobot_ros2) to command the robot arm to grasp, move, and release the objects accurately.
+   - Use the wlkata_controller.py code to command the robot arm to grasp, move, and release the objects accurately.
    - Ensure smooth movements and avoid collisions.
 
 5. **Testing and Demonstration:**
@@ -75,7 +75,7 @@ Use cam_arm_demo.py as a template for this assignment. This file is a simple scr
    - If the color is unclear, keep the object in the scanning area for re-evaluation.
 
 4. **Robot Arm Control:**
-   - Use the WLKATA API to program the arm to pick up and move objects based on their detected color.
+   - Use the wlkata_controller.py code to program the arm to pick up and move objects based on their detected color.
    - Ensure smooth motion and precise placement.
 
 5. **Testing and Demonstration:**
