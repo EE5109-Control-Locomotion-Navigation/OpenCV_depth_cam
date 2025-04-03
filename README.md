@@ -7,6 +7,13 @@ In this lab, students will program a 6-degree-of-freedom (6-DOF) WLKATA robot ar
 
 Submit your results as a group on Canvas. Ensure everyone's names are included in the submission.
 
+# Update!!!
+Use cam_arm_demo.py as a template for this assignment. This file is a simple script that will:
+- home the robot arm
+- scan a qr code
+- move the robot arm (forward kinematics i.e. set the joint angles)
+- move the robot arm (inverse kinematics i.e. set the pose in 3D space)
+
 **Equipment Needed:**
 - 6-DOF WLKATA Robot Arm
 - Camera (OAK-D Lite or equivalent)
@@ -16,7 +23,7 @@ Submit your results as a group on Canvas. Ensure everyone's names are included i
 ## Part I - QR Code Scanner
 
 ### Instructions:
-![QR Code example](/images/gearbox.png)
+![QR Code example](images/gearbox.png)
 1. **Setup:**
    - Connect the WLKATA robot arm to your computer and ensure the control software is running.
    - Position the camera to clearly capture the QR codes of objects in the designated scanning area.
