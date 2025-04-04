@@ -106,6 +106,23 @@ class WlkataRobotController:
             self.wait_for_completion() # Wait for the robot to finish moving
         else:
             print("Mirobot not initialized! Cannot set coordinates.")
+
+    def set_pump(self, state):
+        """Turn the pump on or off.
+        
+        Args:
+            state: True to turn pump on, False to turn pump off
+        """
+        if self.mirobot:
+            if state:
+                print("Turning pump ON")
+                self.mirobot.pump(1)
+            else:
+                print("Turning pump OFF")
+                self.mirobot.pump(0)
+            self.wait_for_completion()  # Wait for the action to complete
+        else:
+            print("Mirobot not initialized! Cannot control pump.")
     
     def __enter__(self):
         """Context manager entry point."""
